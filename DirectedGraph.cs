@@ -31,7 +31,7 @@ public class DirectedGraph
         }
     }
 
-    public int GetNumNodes()
+    public int Count()
     {
         return this._nodes.Count;
     }
