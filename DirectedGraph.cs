@@ -36,4 +36,13 @@ public class DirectedGraph
         return this._nodes.Count;
     }
 
-   
+    public List<int> GetNeighbors(int nodeId)
+    {
+        if (this._nodes.ContainsKey(nodeId))
+        {
+            return this._nodes[nodeId].Edges.Select(edge => edge.EndNode).ToList();
+        }
+
+        return new List<int>();
+    }
+}
