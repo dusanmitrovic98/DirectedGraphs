@@ -12,6 +12,6 @@ public class DirectedGraph
 
     public DirectedGraph()
     {
-
+        this._nodes = new Dictionary<int, Node>();
     }
 }
