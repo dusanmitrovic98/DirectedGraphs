@@ -17,17 +17,17 @@ public class DirectedGraph
 
     public void AddNode(int id)
     {
-        if (!Nodes.ContainsKey(id))
+        if (!this._nodes.ContainsKey(id))
         {
-            Nodes[id] = new Node(id);
+            this._nodes[id] = new Node(id);
         }
     }
 
     public void AddEdge(int startNodeId, int endNodeId, int weight = 0)
     {
-        if (Nodes.ContainsKey(startNodeId) && Nodes.ContainsKey(endNodeId))
+        if (this._nodes.ContainsKey(startNodeId) && this._nodes.ContainsKey(endNodeId))
         {
-            Nodes[startNodeId].Edges.Add(new Edge(startNodeId, endNodeId));
+            this._nodes[startNodeId].Edges.Add(new Edge(startNodeId, endNodeId));
         }
     }
 
