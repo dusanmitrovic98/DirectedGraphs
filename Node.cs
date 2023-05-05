@@ -10,4 +10,10 @@ public class Node
         get { return _id; }
         set { _id = value; }
     }
+
+    public List<Edge> Edges
+    {
+        get { return this._edges; }
+        set { this._edges = value; }
+    }
 }
