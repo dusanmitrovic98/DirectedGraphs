@@ -16,4 +16,9 @@ public class Edge
         get { return _endNode; }
         set { _endNode = value; }
     }
+
+    public Edge(int startNode, int endNode)
+    {
+
+    }
 }
