@@ -22,4 +22,12 @@ public class DirectedGraph
             Nodes[id] = new Node(id);
         }
     }
+
+    public void AddEdge(int startNodeId, int endNodeId, int weight = 0)
+    {
+        if (Nodes.ContainsKey(startNodeId) && Nodes.ContainsKey(endNodeId))
+        {
+            Nodes[startNodeId].Edges.Add(new Edge(startNodeId, endNodeId, weight));
+        }
+    }
 }
