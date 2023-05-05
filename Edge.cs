@@ -10,4 +10,10 @@ public class Edge
         get { return _startNode; }
         set { _startNode = value; }
     }
+
+    public int EndNode
+    {
+        get { return _endNode; }
+        set { _endNode = value; }
+    }
 }
