@@ -2,13 +2,12 @@ namespace DataStructures.Collections.Graphs;
 
 public class Node
 {
-    private int _id;
+    private static int _id;
     private List<Edge> _edges;
 
     public int Id
     {
         get { return _id; }
-        set { _id = value; }
     }
 
     public List<Edge> Edges
@@ -17,9 +16,8 @@ public class Node
         set { this._edges = value; }
     }
 
-    public Node(int id)
+    public Node()
     {
-        this._id = id;
         this._edges = new List<Edge>();
     }
 }
