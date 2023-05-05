@@ -9,4 +9,9 @@ public class DirectedGraph
         get { return this._nodes; }
         set { this._nodes = value; }
     }
+
+    public DirectedGraph()
+    {
+
+    }
 }
