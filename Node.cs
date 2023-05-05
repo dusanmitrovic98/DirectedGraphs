@@ -16,4 +16,9 @@ public class Node
         get { return this._edges; }
         set { this._edges = value; }
     }
+
+    public Node(int id)
+    {
+
+    }
 }
