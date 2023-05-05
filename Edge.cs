@@ -19,6 +19,7 @@ public class Edge
 
     public Edge(int startNode, int endNode)
     {
-
+        this._startNode = startNode;
+        this._endNode = endNode;
     }
 }
