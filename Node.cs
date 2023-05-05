@@ -1,0 +1,1 @@
+namespace DataStructures.Collections.Graphs;
