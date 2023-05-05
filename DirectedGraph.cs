@@ -14,4 +14,12 @@ public class DirectedGraph
     {
         this._nodes = new Dictionary<int, Node>();
     }
+
+    public void AddNode(int id)
+    {
+        if (!Nodes.ContainsKey(id))
+        {
+            Nodes[id] = new Node(id);
+        }
+    }
 }
