@@ -30,4 +30,9 @@ public class DirectedGraph
             Nodes[startNodeId].Edges.Add(new Edge(startNodeId, endNodeId));
         }
     }
+
+    public int GetNumNodes()
+    {
+        return this._nodes.Count;
+    }
 }
