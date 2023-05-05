@@ -1,5 +1,5 @@
 ﻿namespace DataStructures.Collections.Graphs;
-public class Class1
+public class DirectedGraph
 {
 
 }
