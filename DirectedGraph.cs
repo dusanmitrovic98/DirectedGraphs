@@ -27,7 +27,7 @@ public class DirectedGraph
     {
         if (Nodes.ContainsKey(startNodeId) && Nodes.ContainsKey(endNodeId))
         {
-            Nodes[startNodeId].Edges.Add(new Edge(startNodeId, endNodeId, weight));
+            Nodes[startNodeId].Edges.Add(new Edge(startNodeId, endNodeId));
         }
     }
 }
