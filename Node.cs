@@ -3,6 +3,7 @@ namespace DataStructures.Collections.Graphs;
 public class Node
 {
     private int _id;
+    private List<Edge> _edges;
 
     public int Id
     {
