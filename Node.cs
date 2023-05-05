@@ -19,6 +19,7 @@ public class Node
 
     public Node(int id)
     {
-
+        this._id = id;
+        this._edges = new List<Edge>();
     }
 }
